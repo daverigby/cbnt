@@ -22,7 +22,10 @@ import lnt.server.db.util
 # List of all Couchbase testsuites
 # If you want to add a new one, add it to the list
 CB_TESTSUITES = [{'name': 'memcached', 'db_key': 'Memcached'},
-                 {'name': 'ep-engine', 'db_key': 'EP'}, ]
+                 {'name': 'memcached_watson', 'db_key': 'Memcached_watson'},
+                 {'name': 'ep-engine', 'db_key': 'EP'},
+                 {'name': 'ep-engine_watson', 'db_key': 'EP_watson'},
+]
 
 # Schema for in-database version information.
 Base = sqlalchemy.ext.declarative.declarative_base()
